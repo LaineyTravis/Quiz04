@@ -1,0 +1,49 @@
+def twoNorm(vector):
+  """
+This function takes a vector as its argument and computes the square root of thesum of the vectors squared components before returning the Euclidean Norm of the vector.
+  """
+  for i in range(len(vector)):
+    if type(vector[i]) not in [int, float, complex]:
+      #This allows all types of numbers to be computed in the program
+      return ("Invalid Input")
+    result = 0
+  for i in range(len(vector)):
+    result = result + (vector[i]**2)
+    #This will take the sum of the squared components in the vector
+    result = result**(1/2)
+    # After computing the sum oof the squared components the function will take the square root of that sum to find the Euclidean Norm of the vector.
+    return result
+
+def QR(Matrix):
+  """
+  This function takes in a matrix as its arguments and computes the QR factorization of that matrix using the modified Graham-Schmidt Algorithm before returning the updated matrix.
+  """
+  for i in range(len(Matrix)):
+    r[i][i] = NormTwo(Vector01)
+    q[i] = 0
+    q[i] = (Vector01*(1/twoNorm(Vector01))
+    for j in range(len(Matrix)):
+      r[i][j] = q[i] * Vector02[i]
+      Vec2 = 0
+      Vec2 = Vector02[i] – (r[i][j]*q[i])
+
+
+# Test variables for fucntion   
+
+testVector1A = [1, 2, 3]
+testVector1B = [4i, 2i, 9i, 12i]
+testvector1C = "Squirrel Bubbles"
+
+TestVector2A = [2, 3, 4]
+TestVector2B = [5.2, 8.7, 2.5]
+TestVector2C = [10, 12, 14]
+
+TestMatrix1 = [[1, 2], [2, 3], [3, 4]]
+TestMatrix2 = [[9, 5.2], [6, 8.7], [1, 2.5]]
+TestMatrix3 = [[2i, 10i], [1i, 5i], [12i, 14i]]
+
+
+
+print(QR(TestMatrix1,TestVector1A, Testvector2A))
+#print(QR(TestMatrix2,TestVector1B, Testvector2B))
+#print(QR(TestMatrix3,TestVector1C, Testvector2C))
