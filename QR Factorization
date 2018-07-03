@@ -37,7 +37,7 @@ def QR(Matrix):
 
 # Test variables for fucntion   
 
-testVector1A = [1, 2, 3]
+testVector1A = [1, 2, 3] 
 testVector1B = [4i, 2i, 9i, 12i]
 testvector1C = "Squirrel Bubbles"
 
