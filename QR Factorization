@@ -1,7 +1,9 @@
 def twoNorm(vector):
+
   """
 This function takes a vector as its argument and computes the square root of thesum of the vectors squared components before returning the Euclidean Norm of the vector.
   """
+  
   for i in range(len(vector)):
     if type(vector[i]) not in [int, float, complex]:
       #This allows all types of numbers to be computed in the program
@@ -14,10 +16,14 @@ This function takes a vector as its argument and computes the square root of the
     # After computing the sum oof the squared components the function will take the square root of that sum to find the Euclidean Norm of the vector.
     return result
 
+
+
 def QR(Matrix):
+
   """
   This function takes in a matrix as its arguments and computes the QR factorization of that matrix using the modified Graham-Schmidt Algorithm before returning the updated matrix.
   """
+  
   for i in range(len(Matrix)):
     r[i][i] = NormTwo(Vector01)
     q[i] = 0
@@ -26,6 +32,7 @@ def QR(Matrix):
       r[i][j] = q[i] * Vector02[i]
       Vec2 = 0
       Vec2 = Vector02[i] – (r[i][j]*q[i])
+
 
 
 # Test variables for fucntion   
