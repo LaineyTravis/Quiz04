@@ -43,7 +43,7 @@ testvector1C = "Squirrel Bubbles"
 
 TestVector2A = [2, 3, 4] 
 TestVector2B = [5.2, 8.7, 2.5]
-TestVector2C = [10, 12, 14]
+TestVector2C = [10, 12, 14] 
 
 TestMatrix1 = [[1, 2], [2, 3], [3, 4]]
 TestMatrix2 = [[9, 5.2], [6, 8.7], [1, 2.5]]
